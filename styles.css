@@ -1,0 +1,42 @@
+body {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    margin: 0 2em;
+}
+
+.header {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button placement..?? and style it... */
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    flex-basis: 50%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+a, h2 {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
