@@ -11,3 +11,10 @@ Well, I was able to layout most/all of the content for the html page.
 Now I'm trying to style it in CSS. I feel pretty good about the header part, moving on to the 2nd section (content).
 
 Not sure yet how to place the "Join!" button underneath the text, but at least I got the image to place on the right side parallel to the text, yay!
+
+---
+
+Credits (for images):
+
+First image - by S Migaj:
+https://www.pexels.com/photo/a-person-sitting-on-wooden-planks-across-the-lake-scenery-747964/
