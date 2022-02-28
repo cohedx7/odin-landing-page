@@ -14,6 +14,12 @@ Not sure yet how to place the "Join!" button underneath the text, but at least I
 
 ---
 
+Version 2 (28/02/22):
+
+So, today I added a bunch of stuff to my HTML and CSS codes in order to make the layout look a lot better (more or less as close as possible to the TOP LP template). It looks pretty good, I probably need to add a few pages for the links to work properly. Might need to revisit some of the MDN documentation for some new concepts that I discovered today. Overall, I feel pretty good about this project.
+
+---
+
 Credits (for images):
 
 First image - by S Migaj:
