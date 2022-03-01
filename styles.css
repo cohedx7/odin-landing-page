@@ -9,12 +9,22 @@ body {
     align-items: space-between;
 }
 
+/* Centering and spacing for header section */
+
 .header {
     font-size: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+/* 2nd/content section flexbox sizing and adjustments */
 
 .container {
     display: flex;
@@ -54,24 +64,22 @@ img {
     flex-basis: 30%;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1em;
-}
+/* Blinking animation for welcome text */
 
 h1 {
     animation: blinker 3s infinite;
 } 
 
-h2 {
-    font-size: 2vw;
-}
-
 @keyframes blinker {
     50% {
     opacity: 25%;
     }
+}
+
+/* Text sizing for h2 and buttons */
+
+h2 {
+    font-size: 2vw;
 }
 
 a {
@@ -80,21 +88,7 @@ a {
     font-size: 20px;
 }
 
-.quote {
-    text-align: center;
-    color: #1F2937;
-    background-color: #E5E7EB;
-    margin-left: -12.5%;
-    margin-right: -12.5%;
-}
-
-em {
-    font-size: 24px;
-}
-
-strong {
-    font-size: 18px;
-}
+/* 3rd/info section styling and adjustments */
 
 .info {
     background-color: white;
@@ -136,6 +130,26 @@ span {
     font-size: 16px;
 }
 
+/* Styling for 4th/quote section */
+
+.quote {
+    text-align: center;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+}
+
+em {
+    font-size: 24px;
+}
+
+strong {
+    font-size: 18px;
+}
+
+/* Fitting 5th section inside box and styling */
+
 #box {
     margin-left: -12.5%;
     margin-right: -12.5%;
@@ -165,7 +179,45 @@ span {
     font-size: 16px;
 }
 
+/* Footer styling */
+
 .footer {
     text-align: center;
     font-size: 18px;
 }
+
+/* Animation and centering for join.html */
+
+.ty {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ty p {
+    background-image: 
+    linear-gradient(
+    -225deg,
+    #3700ff 0%,
+    #7b00ff 29%,
+    #ff0055 67%,
+    #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+ }
+ 
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }

@@ -20,7 +20,19 @@ So, today I added a bunch of stuff to my HTML and CSS codes in order to make the
 
 ---
 
-Credits (for images):
+Version 3 (01/03/22):
+
+I updated the links in the header so that they actually work and are related to some relevant content. Added borders to images in "Who am I?" section. Refined layout elsewhere and made the text in "content" section shrink or expand according to window size (better for mobile view).
+
+---
+
+Version 3.1 (01/03/22):
+
+Added a thank you message with animation (found at https://alvarotrigo.com/blog/css-text-animations/ - 2. Text Colour Animation Effect) for the join.html page. Added comments in styles.css file.
+
+---
+
+Credits (for image):
 
 First image - by S Migaj:
 https://www.pexels.com/photo/a-person-sitting-on-wooden-planks-across-the-lake-scenery-747964/
