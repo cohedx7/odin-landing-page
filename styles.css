@@ -21,6 +21,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-size: 2.5vw;
 }
 
 .content {
@@ -34,11 +35,15 @@ button {
     background-color: #4c77af;
     border: none;
     color: white;
-    padding: 0.7em 1.4em;
+    padding: 0.5em 1em;
     text-align: center;
     font-size: 16px;
     border-radius: 16px;
     cursor: pointer;
+}
+
+.content button {
+    font-size: 1.5vw;
 }
 
 img {
@@ -46,7 +51,7 @@ img {
 }
 
 .image {
-    flex-basis: 25%;
+    flex-basis: 30%;
 }
 
 ul {
@@ -59,13 +64,17 @@ h1 {
     animation: blinker 3s infinite;
 } 
 
+h2 {
+    font-size: 2vw;
+}
+
 @keyframes blinker {
     50% {
     opacity: 25%;
     }
 }
 
-a, h2 {
+a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 20px;
@@ -95,8 +104,6 @@ strong {
     margin-left: -12.5%;
     margin-right: -12.5%;
 }
-
-/* how to make white sections stretch to both sides? */
 
 .info img {
     width: 100px;
