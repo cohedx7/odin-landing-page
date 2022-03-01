@@ -126,6 +126,11 @@ strong {
     width: 120px;
 }
 
+.item img {
+    border: 7px solid silver;
+    border-radius: 28px;
+}
+
 span {
     display: block;
     font-size: 16px;
@@ -145,10 +150,10 @@ span {
     background-color: #3882F6;
     position: relative;
     margin: 2em auto;
-    padding-bottom: 0.5em;
+    padding: 0 1em 0.5em;
     width: 75%;
     height: 50%;    
-    border-radius: 12px;
+    border-radius: 16px;
 }
 
 .more-text {
